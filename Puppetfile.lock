@@ -1,12 +1,47 @@
 GITHUBTARBALL
+  remote: boxen/puppet-adium
+  specs:
+    adium (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-atom
+  specs:
+    atom (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.2.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -24,6 +59,11 @@ GITHUBTARBALL
     go (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-hipchat
+  specs:
+    hipchat (1.1.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.9.5)
@@ -32,6 +72,31 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-libreoffice
+  specs:
+    libreoffice (4.2.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-marked2
+  specs:
+    marked2 (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mou
+  specs:
+    mou (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -44,6 +109,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -52,6 +122,11 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -64,14 +139,54 @@ GITHUBTARBALL
     ruby (8.1.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sizeup
+  specs:
+    sizeup (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-totalfinder
+  specs:
+    totalfinder (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.13)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -89,22 +204,45 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  adium (= 1.4.0)
+  atom (= 1.0.0)
   boxen (= 3.7.0)
+  caffeine (= 1.0.0)
+  chrome (= 1.2.0)
   dnsmasq (= 2.0.0)
+  dropbox (= 1.4.0)
+  firefox (= 1.2.3)
+  flux (= 1.0.1)
   gcc (= 2.2.0)
   git (= 2.5.0)
   go (= 1.1.0)
+  hipchat (= 1.1.3)
   homebrew (= 1.9.5)
   hub (= 1.3.0)
   inifile (= 1.1.1)
+  iterm2 (= 1.2.0)
+  libreoffice (= 4.2.5)
+  macvim (= 1.0.0)
+  marked2 (= 1.0.1)
   module_data (= 0.0.3)
+  mou (= 1.1)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
+  osx (= 2.7.1)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  property_list_key (= 0.1.0)
   repository (= 2.3.0)
   ruby (= 8.1.4)
+  sizeup (= 1.0.0)
+  skype (= 1.0.9)
+  spotify (= 1.0.2)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  totalfinder (= 1.0.1)
+  vagrant (= 3.2.0)
+  virtualbox (= 1.0.13)
+  vlc (= 1.1.0)
   xquartz (= 1.2.1)
+  zsh (= 1.0.0)
 
