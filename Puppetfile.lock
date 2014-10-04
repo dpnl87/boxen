@@ -89,11 +89,6 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-marked2
-  specs:
-    marked2 (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-mou
   specs:
     mou (1.1.0)
@@ -223,7 +218,6 @@ DEPENDENCIES
   iterm2 (= 1.2.0)
   libreoffice (= 4.2.5)
   macvim (= 1.0.0)
-  marked2 (= 1.0.1)
   module_data (= 0.0.3)
   mou (= 1.1)
   nodejs (= 3.8.1)
