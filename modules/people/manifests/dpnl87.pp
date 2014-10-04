@@ -61,4 +61,9 @@ class people::dpnl87 {
     ],
   }
 
+  # Install Prezto
+  repository { 'prezto':
+    source => 'sorin-ionescu/prezto',
+    path   => "${env['directories']['home']}/.zprezto",
+  }
 }
