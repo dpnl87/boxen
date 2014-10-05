@@ -38,6 +38,7 @@ class people::dpnl87 {
     },
     dotfiles => [
       'zshrc',
+      'vimrc.after',
     ],
     packages => {
       brew   => [
@@ -45,6 +46,11 @@ class people::dpnl87 {
         'nmap'
       ]
     }
+  }
+
+  # Install Brew Applications
+  package { $env['packages']['brew']:
+    provider => 'homebrew',
   }
 
   # Install Janus
@@ -66,4 +72,23 @@ class people::dpnl87 {
     source => 'sorin-ionescu/prezto',
     path   => "${env['directories']['home']}/.zprezto",
   }
+
+  # Dotfile Setup
+  repository { 'dpnl87-dotfiles':
+    source => 'dpnl87/dotfiles',
+    path   => "${env['directories']['dotfiles']}",
+  }
+  -> people::dpnl87::dotfile::link { $env['dotfiles']:
+    source_dir => $env['directories']['dotfiles'],
+    dest_dir   => $env['directories']['home'],
+  }
+
+  # Misc Helpers until I can figure out where to put this
+  define dotfile::link($source_dir, $dest_dir) {
+    file { "${dest_dir}/.${name}":
+      ensure => symlink,
+      target => "${source_dir}/.${name}",
+    }
+  }
+
 }
