@@ -45,7 +45,9 @@ class people::dpnl87 {
       brew   => [
         'wget',
         'nmap',
-        'awscli'
+        'awscli',
+        'boot2docker',
+        'docker'
       ]
     }
   }
