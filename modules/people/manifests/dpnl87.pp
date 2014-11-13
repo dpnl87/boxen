@@ -44,6 +44,7 @@ class people::dpnl87 {
     packages => {
       brew   => [
         'wget',
+        'htop',
         'tree',
         'nmap',
         'awscli',
