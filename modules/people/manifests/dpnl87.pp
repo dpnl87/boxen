@@ -48,6 +48,7 @@ class people::dpnl87 {
         'tree',
         'nmap',
         'awscli',
+        'md5sha1sum',
         'boot2docker',
         'docker'
       ]
