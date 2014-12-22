@@ -44,6 +44,7 @@ class people::dpnl87 {
     packages => {
       brew   => [
         'wget',
+        'ssh-copy-id',
         'htop',
         'tree',
         'nmap',
