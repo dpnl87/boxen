@@ -51,7 +51,8 @@ class people::dpnl87 {
         'awscli',
         'md5sha1sum',
         'boot2docker',
-        'docker'
+        'docker',
+        'gist'
       ]
     }
   }
