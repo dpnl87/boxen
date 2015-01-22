@@ -52,7 +52,8 @@ class people::dpnl87 {
         'md5sha1sum',
         'boot2docker',
         'docker',
-        'gist'
+        'gist',
+        'asciinema'
       ]
     }
   }
