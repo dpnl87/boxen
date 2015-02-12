@@ -53,7 +53,8 @@ class people::dpnl87 {
         'boot2docker',
         'docker',
         'gist',
-        'asciinema'
+        'asciinema',
+        'highlight'
       ]
     }
   }
