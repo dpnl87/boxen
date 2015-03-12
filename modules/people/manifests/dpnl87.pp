@@ -54,7 +54,8 @@ class people::dpnl87 {
         'docker',
         'gist',
         'asciinema',
-        'highlight'
+        'highlight',
+        'redis'
       ]
     }
   }
